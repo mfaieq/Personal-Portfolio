@@ -57,7 +57,7 @@ html body{
 .about{
     min-height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/Assets/dark-desk-setup.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(Assets/dark-desk-setup.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
