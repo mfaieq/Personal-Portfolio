@@ -13,7 +13,7 @@ html body{
     position: relative;
     top: 0px;
     background-color:rgb(20, 20, 20);
-    position: sticky;
+    /* position: sticky; */
     Z-index: 100
     
 }
@@ -198,9 +198,14 @@ border-color: blanchedalmond
 }
 
 /* to enable scroll Function */
-.scroll {
+/* .scroll {
     height: 1000px;
-}
+} */
 
 /* Nav bar fix */
 
+/* contact images @ footer */
+#contactBtn{
+    font-size: 2rem;
+    margin: auto;
+}
