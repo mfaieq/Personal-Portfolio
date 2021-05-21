@@ -1,0 +1,207 @@
+html body{
+    background-color:rgb(20, 20, 20);
+    color: wheat;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.nav1{
+    box-shadow: black 0px 0px 13px 0px ;
+    display: block;
+    position: relative;
+    top: 0px;
+    background-color:rgb(20, 20, 20);
+    position: sticky;
+    Z-index: 100
+    
+}
+
+/* omar */
+
+.offset{
+    position: absolute;
+    left:0;
+    right: 0;
+}
+/* .offset:before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+  
+  } */
+  footer {
+    background-color: #232324;
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 0rem;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer svg.svg-inline--fa:hover {
+    color: #232324!important;
+  }
+  
+  .hrFooter {
+    width: 100%;
+    border-top: .2rem solid #000000;
+  }
+    
+
+/* The Welcome page */
+.about{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/Assets/dark-desk-setup.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    
+}
+
+
+.txt{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.txt h1{
+    font-size: 62px;
+}
+
+.txt h7 {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: wheat;
+}
+
+@media(max-width: 700px){
+    .txt h1{
+        font-size: 40px;
+    }
+}
+
+.skills h1{
+    color: white;
+}
+
+
+
+#face{
+    height: 200px;
+    border-radius: 50%;
+    border: wheat solid 5px;
+}
+@media(max-width: 700px){
+    #face{
+        height: 150px;
+    }
+}
+
+/* about Section */
+.abt {
+    text-align:center;
+    margin-top: 1rem;
+}
+    
+/* projects section  */
+.pro h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+}
+
+.pro p{
+    text-align: center;
+}
+
+.card{
+    background-color: rgb(43, 43, 43);
+    color: rgb(243, 228, 199);
+    margin: 0.5rem;
+    max-height: 100%;
+
+}
+
+.card h5{
+    color: white
+}
+
+.btn{
+background-color: rgb(68, 68, 68);
+color: burlywood;
+border-color: blanchedalmond
+}
+
+/* skills Section */
+#skills1{
+    /* margin-bottom: -35px; */
+    scroll-padding-top: 40px;
+}
+
+#skills{
+    font-size: 5rem;
+    margin: auto;
+    z-index: 1;
+    /* padding-top: 35px; */
+}
+
+
+#skills i:hover{
+    font-size: 5.5rem;
+ }
+
+.skl{
+    color: white;
+}
+/* Recent Experiences */
+.exp{
+    color: white;
+    text-align: center;
+}
+
+.expCard{
+    text-align: center;
+
+}
+
+/* Qual Sec */
+
+.qual-txt{
+    text-align:center;
+    color: white;
+}
+
+.qual-card{
+    margin: 0.5rem;
+}
+
+/* Hobbies Section */
+.carousel-inner{
+    height: auto;
+}
+@media only screen and (max-width: 767px) {
+    .carousel-inner{
+        height: auto;
+    }
+}
+
+/* to enable scroll Function */
+.scroll {
+    height: 1000px;
+}
+
+/* Nav bar fix */
+
